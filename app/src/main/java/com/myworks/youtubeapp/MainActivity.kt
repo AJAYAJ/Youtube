@@ -17,15 +17,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.viewinterop.AndroidView
-import com.myworks.youtubeapp.screens.JetpackComposeYouTubePlayer
 import com.myworks.youtubeapp.ui.theme.YouTubeAppTheme
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,10 +45,6 @@ fun YouTubeScreen(youtubeUrl: String, scrollableText: String, modifier: Modifier
     val context = LocalContext.current
     Column(modifier = modifier.fillMaxSize()) {
         // Video Player Section (30% of the screen)
-        Box(modifier = Modifier.weight(0.3f).background(Color.Black)) {
-//            YouTubePlayer(url = youtubeUrl)
-            JetpackComposeYouTubePlayer(videoId = "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-        }
 
         // Scrollable Text Section (70% of the screen)
         Column(

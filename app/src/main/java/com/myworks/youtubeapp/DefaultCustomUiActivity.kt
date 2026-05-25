@@ -5,8 +5,11 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
@@ -43,10 +46,20 @@ fun DefaultCustomUiContent() {
                 .height(300.dp)
         )
 
-        Button(onClick = { 
-            videoId = VideoIdsProvider.getNextVideoId() 
-        }) {
-            Text("Play next video")
+        Row {
+            Button(onClick = { 
+                videoId = VideoIdsProvider.getNextVideoId() 
+            }) {
+                Text("Play previous video")
+            }
+
+            Spacer(modifier = Modifier.width(8.dp))
+
+            Button(onClick = { 
+                videoId = VideoIdsProvider.getNextVideoId() 
+            }) {
+                Text("Play next video")
+            }
         }
     }
 }
@@ -79,6 +92,8 @@ private fun YouTubePlayerWithDefaultCustomUi(
                         val defaultPlayerUiController = DefaultPlayerUiController(this@apply, youTubePlayer)
                         defaultPlayerUiController.showYouTubeButton(false)
                         defaultPlayerUiController.showMenuButton(true)
+                        defaultPlayerUiController.showCustomAction1(true)
+                        defaultPlayerUiController.showCustomAction2(true)
                         
                         // Example: adding a menu item
                         defaultPlayerUiController.getMenu()?.addItem(
