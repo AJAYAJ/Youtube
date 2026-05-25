@@ -1,6 +1,7 @@
 package com.myworks.youtubeapp
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
@@ -13,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.compose.LocalLifecycleOwner
+import com.myworks.youtubeapp.menu.MenuItem
 import com.myworks.youtubeapp.utils.VideoIdsProvider
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
@@ -55,7 +57,8 @@ private fun YouTubePlayerWithDefaultCustomUi(
     modifier: Modifier = Modifier
 ) {
     val lifecycleOwner = LocalLifecycleOwner.current
-    val playerRef = remember { mutableStateOf<YouTubePlayer?>(null) }
+    var player by remember { mutableStateOf<YouTubePlayer?>(null) }
+    var currentVideoId by remember { mutableStateOf("") }
 
     AndroidView(
         modifier = modifier,
@@ -70,20 +73,35 @@ private fun YouTubePlayerWithDefaultCustomUi(
                 
                 initialize(object : AbstractYouTubePlayerListener() {
                     override fun onReady(youTubePlayer: YouTubePlayer) {
-                        playerRef.value = youTubePlayer
+                        player = youTubePlayer
                         
                         // Set the default custom UI controller
                         val defaultPlayerUiController = DefaultPlayerUiController(this@apply, youTubePlayer)
                         defaultPlayerUiController.showYouTubeButton(false)
+                        defaultPlayerUiController.showMenuButton(true)
+                        
+                        // Example: adding a menu item
+                        defaultPlayerUiController.getMenu()?.addItem(
+                            MenuItem("Example Menu Item", R.drawable.ayp_ic_youtube_24dp) {
+                                Toast.makeText(context, "Menu item clicked", Toast.LENGTH_SHORT).show()
+                            }
+                        )
+
                         setCustomPlayerUi(defaultPlayerUiController.rootView)
                         
-                        youTubePlayer.loadOrCueVideo(lifecycleOwner.lifecycle, videoId, 0f)
+                        if (currentVideoId != videoId) {
+                            currentVideoId = videoId
+                            youTubePlayer.loadOrCueVideo(lifecycleOwner.lifecycle, videoId, 0f)
+                        }
                     }
                 }, options)
             }
         },
         update = { view ->
-            playerRef.value?.loadOrCueVideo(lifecycleOwner.lifecycle, videoId, 0f)
+            if (player != null && currentVideoId != videoId) {
+                currentVideoId = videoId
+                player?.loadOrCueVideo(lifecycleOwner.lifecycle, videoId, 0f)
+            }
         }
     )
 }

@@ -74,8 +74,8 @@ class DefaultPlayerUiController(
 
         if (isPlayPauseButtonEnabled) playPauseButton.visibility = View.VISIBLE
         
-        customActionLeft.visibility = View.VISIBLE
-        customActionRight.visibility = View.VISIBLE
+        if (isCustomActionLeftEnabled) customActionLeft.visibility = View.VISIBLE
+        if (isCustomActionRightEnabled) customActionRight.visibility = View.VISIBLE
 
         updatePlayPauseButtonIcon(state === PlayerConstants.PlayerState.PLAYING)
 
