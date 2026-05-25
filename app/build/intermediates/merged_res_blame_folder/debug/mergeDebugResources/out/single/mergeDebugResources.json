@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_play_36dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_play_36dp.xml"
+    },
+    {
+        "merged": "com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_forward_10_24dp.xml.flat",
+        "source": "com.myworks.youtubeapp-main-43:/drawable/ayp_ic_forward_10_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_rewind_10_24dp.xml.flat",
+        "source": "com.myworks.youtubeapp-main-43:/drawable/ayp_ic_rewind_10_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/layout_ayp_menu_item.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/layout/ayp_menu_item.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_fullscreen_exit_24dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_fullscreen_exit_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/layout_ayp_default_player_ui.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/layout/ayp_default_player_ui.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/xml_backup_rules.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_background_item_selected.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_background_item_selected.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_menu_24dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_menu_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_drop_shadow_bottom.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_drop_shadow_bottom.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_fullscreen_24dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_fullscreen_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_youtube_24dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_youtube_24dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_ic_pause_36dp.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_ic_pause_36dp.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_drop_shadow_top.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_drop_shadow_top.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/drawable_ayp_shape_rounded_corners.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/drawable/ayp_shape_rounded_corners.xml"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-debug-41:/layout_ayp_player_menu.xml.flat",
+        "source": "/Users/ajay/.gradle/daemon/9.4.1/com.myworks.youtubeapp-main-43:/layout/ayp_player_menu.xml"
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.myworks.youtubeapp-mergeDebugResources-39:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/ajay/.gradle/caches/9.4.1/transforms/3dfeade05385a950e7a857c97d407c1e/transformed/material3/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
