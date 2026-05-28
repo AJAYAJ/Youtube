@@ -32,7 +32,8 @@
         <activity
             android:name=".DefaultCustomUiActivity"
             android:exported="true"
-            android:theme="@style/Theme.YouTubeApp">
+            android:theme="@style/Theme.YouTubeApp"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout">
         </activity>
     </application>
 

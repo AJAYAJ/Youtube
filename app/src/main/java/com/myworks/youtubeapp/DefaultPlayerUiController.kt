@@ -109,11 +109,8 @@ class DefaultPlayerUiController(
 
   init {
     onFullscreenButtonListener = View.OnClickListener {
-      isMatchParent = !isMatchParent
-      when (isMatchParent) {
-        true -> youTubePlayerView.matchParent()
-        false -> youTubePlayerView.wrapContent()
-      }
+      setFullscreen(!isMatchParent)
+      if (isMatchParent) youTubePlayerView.matchParent() else youTubePlayerView.wrapContent()
     }
 
     onMenuButtonClickListener = View.OnClickListener { youTubePlayerMenu.show(menuButton) }
@@ -265,6 +262,15 @@ class DefaultPlayerUiController(
   override fun setFullscreenButtonClickListener(customFullscreenButtonClickListener: View.OnClickListener): PlayerUiController {
     onFullscreenButtonListener = customFullscreenButtonClickListener
     return this
+  }
+
+  fun setFullscreen(isFullscreen: Boolean) {
+    this.isMatchParent = isFullscreen
+    if (isFullscreen) {
+      fullscreenButton.setImageResource(R.drawable.ayp_ic_fullscreen_exit_24dp)
+    } else {
+      fullscreenButton.setImageResource(R.drawable.ayp_ic_fullscreen_24dp)
+    }
   }
 
   private fun onPlayButtonPressed() {

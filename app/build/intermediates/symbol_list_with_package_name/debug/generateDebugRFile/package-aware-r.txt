@@ -63,6 +63,12 @@ string ayp_live
 string ayp_null_time
 string ayp_open_video_in_youtube
 string ayp_play_button
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 style Theme_YouTubeApp
 styleable YouTubePlayerSeekBar color fontSize
 xml backup_rules

@@ -62,6 +62,12 @@ int string ayp_live 0x0
 int string ayp_null_time 0x0
 int string ayp_open_video_in_youtube 0x0
 int string ayp_play_button 0x0
+int string gcm_defaultSenderId 0x0
+int string google_api_key 0x0
+int string google_app_id 0x0
+int string google_crash_reporting_api_key 0x0
+int string google_storage_bucket 0x0
+int string project_id 0x0
 int style Theme_YouTubeApp 0x0
 int[] styleable YouTubePlayerSeekBar { 0x0, 0x0 }
 int styleable YouTubePlayerSeekBar_color 0
