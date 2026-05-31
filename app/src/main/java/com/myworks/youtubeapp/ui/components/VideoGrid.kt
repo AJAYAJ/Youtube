@@ -13,6 +13,7 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -22,23 +23,26 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.myworks.youtubeapp.models.VideoItemData
 import com.myworks.youtubeapp.ui.theme.AppDarkBlue
 import com.myworks.youtubeapp.ui.theme.AppLightGray
+import java.util.concurrent.TimeUnit
 
 @Composable
 fun VideoGrid(
     videoIds: List<String>,
     videoData: List<VideoItemData>,
     onVideoClick: (String) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    contentPadding: Dp = 0.dp
 ) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
-        contentPadding = PaddingValues(16.dp),
+        contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 16.dp + contentPadding),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
@@ -56,6 +60,7 @@ fun VideoGrid(
 @Composable
 fun VideoGridItem(videoId: String, data: VideoItemData, onClick: () -> Unit) {
     val thumbnailUrl = "https://img.youtube.com/vi/$videoId/hqdefault.jpg"
+    val formattedTime = remember(data.timestamp) { formatMillis(data.timestamp) }
 
     Column(
         modifier = Modifier
@@ -107,7 +112,7 @@ fun VideoGridItem(videoId: String, data: VideoItemData, onClick: () -> Unit) {
                     .align(Alignment.BottomEnd)
             ) {
                 Text(
-                    text = data.duration,
+                    text = formattedTime,
                     color = Color.White,
                     fontSize = 9.sp,
                     fontWeight = FontWeight.Bold
@@ -137,7 +142,7 @@ fun VideoGridItem(videoId: String, data: VideoItemData, onClick: () -> Unit) {
                 modifier = Modifier.size(10.dp)
             )
             Text(
-                text = " ${data.duration}  ",
+                text = " $formattedTime  ",
                 fontSize = 10.sp,
                 color = Color.Gray
             )
@@ -156,12 +161,18 @@ fun VideoGridItem(videoId: String, data: VideoItemData, onClick: () -> Unit) {
     }
 }
 
+private fun formatMillis(millis: Long): String {
+    val minutes = TimeUnit.MILLISECONDS.toMinutes(millis)
+    val seconds = TimeUnit.MILLISECONDS.toSeconds(millis) - TimeUnit.MINUTES.toSeconds(minutes)
+    return String.format("%02d:%02d", minutes, seconds)
+}
+
 @Preview(showBackground = true)
 @Composable
 fun VideoGridItemPreview() {
     VideoGridItem(
         videoId = "gyhl3UHFWHE",
-        data = VideoItemData("Preview Title", "10:00", "100K", Color.Blue),
+        data = VideoItemData("gyhl3UHFWHE", "Preview Title", "Keywords", 605000L, "100K", Color.Blue, "Story", "Channel"),
         onClick = {}
     )
 }
@@ -172,8 +183,8 @@ fun VideoGridPreview() {
     VideoGrid(
         videoIds = listOf("gyhl3UHFWHE", "gd141sa3-mM"),
         videoData = listOf(
-            VideoItemData("Title 1", "0:15", "43K", Color.Red),
-            VideoItemData("Title 2", "8:15", "25K", Color.Green)
+            VideoItemData("gyhl3UHFWHE", "Title 1", "Keywords 1", 15000L, "43K", Color.Red, "Story 1", "Channel 1"),
+            VideoItemData("gd141sa3-mM", "Title 2", "Keywords 2", 495000L, "25K", Color.Green, "Story 2", "Channel 2")
         ),
         onVideoClick = {}
     )

@@ -27,4 +27,19 @@ object VideoIdsProvider {
             else -> videoIds.toList()
         }
     }
+
+    fun getVideosByChannel(channelId: Int): List<String> {
+        return when (channelId) {
+            1 -> listOf(videoIds[0], videoIds[1])
+            2 -> listOf(videoIds[2], videoIds[3])
+            3 -> listOf(videoIds[4], videoIds[0])
+            4 -> listOf(videoIds[1], videoIds[2])
+            5 -> listOf(videoIds[3], videoIds[4])
+            6 -> listOf(videoIds[0], videoIds[2])
+            7 -> listOf(videoIds[1], videoIds[3])
+            8 -> listOf(videoIds[4], videoIds[1])
+            9 -> listOf(videoIds[2], videoIds[4])
+            else -> videoIds.toList()
+        }
+    }
 }

@@ -50,14 +50,14 @@ fun TopHeader(modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.width(12.dp))
             Column {
                 Text(
-                    text = "YOUR YOUTUBE",
+                    text = "VAGA Media",
                     color = Color.White,
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
                     lineHeight = 18.sp
                 )
                 Text(
-                    text = "CHANNEL NAME",
+                    text = "Animation World",
                     color = Color.White,
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,

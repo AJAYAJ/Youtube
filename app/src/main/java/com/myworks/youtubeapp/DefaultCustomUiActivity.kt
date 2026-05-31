@@ -5,13 +5,16 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
@@ -22,8 +25,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.myworks.youtubeapp.menu.MenuItem
 import com.myworks.youtubeapp.utils.VideoIdsProvider
+import com.myworks.youtubeapp.viewmodels.HomeViewModel
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.options.IFramePlayerOptions
@@ -33,6 +38,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTube
 class DefaultCustomUiActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         val videoId = intent.getStringExtra("VIDEO_ID") ?: VideoIdsProvider.getNextVideoId()
         setContent {
             DefaultCustomUiContent(initialVideoId = videoId)
@@ -41,10 +47,16 @@ class DefaultCustomUiActivity : ComponentActivity() {
 }
 
 @Composable
-fun DefaultCustomUiContent(initialVideoId: String) {
+fun DefaultCustomUiContent(initialVideoId: String, homeViewModel: HomeViewModel = viewModel()) {
     var isFullscreen by remember { mutableStateOf(false) }
     val context = LocalContext.current
     val activity = context as? ComponentActivity
+
+    // Find the story for the current video from ViewModel
+    val videoStory = remember(initialVideoId, homeViewModel.videoData.value) {
+        homeViewModel.videoData.value.find { it.videoId == initialVideoId }?.story
+            ?: "This is a detailed story about the video. It provides context and background information that enhances the viewing experience."
+    }
 
     LaunchedEffect(isFullscreen) {
         if (isFullscreen) {
@@ -63,6 +75,7 @@ fun DefaultCustomUiContent(initialVideoId: String) {
             } else {
                 Modifier
                     .fillMaxWidth()
+                    .statusBarsPadding()
                     .fillMaxHeight(0.3f)
             },
             onToggleFullscreen = { isFullscreen = !isFullscreen }
@@ -75,14 +88,15 @@ fun DefaultCustomUiContent(initialVideoId: String) {
                     .weight(1f)
                     .verticalScroll(rememberScrollState())
                     .padding(16.dp)
+                    .navigationBarsPadding()
             ) {
                 Text(
-                    text = "Video Details",
+                    text = "Video Story",
                     style = MaterialTheme.typography.headlineSmall
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = "This is a dummy scrollable text area. It provides more information about the video. ".repeat(50),
+                    text = videoStory,
                     style = MaterialTheme.typography.bodyMedium
                 )
             }
