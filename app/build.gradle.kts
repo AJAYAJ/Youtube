@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.recyclerview)
+    implementation(libs.coil.compose)
     implementation(libs.youtube.player)
     
     implementation(platform(libs.firebase.bom))

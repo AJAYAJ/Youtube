@@ -17,12 +17,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.AsyncImage
 import com.myworks.youtubeapp.models.VideoItemData
 import com.myworks.youtubeapp.ui.theme.AppDarkBlue
 import com.myworks.youtubeapp.ui.theme.AppLightGray
@@ -44,7 +46,7 @@ fun VideoGrid(
             .background(AppLightGray.copy(alpha = 0.3f))
     ) {
         items(videoIds.take(videoData.size).zip(videoData)) { (id, data) ->
-            VideoGridItem(data) {
+            VideoGridItem(videoId = id, data = data) {
                 onVideoClick(id)
             }
         }
@@ -52,7 +54,9 @@ fun VideoGrid(
 }
 
 @Composable
-fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
+fun VideoGridItem(videoId: String, data: VideoItemData, onClick: () -> Unit) {
+    val thumbnailUrl = "https://img.youtube.com/vi/$videoId/hqdefault.jpg"
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -68,6 +72,15 @@ fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
                 .clip(RoundedCornerShape(8.dp))
                 .background(data.color)
         ) {
+            AsyncImage(
+                model = thumbnailUrl,
+                contentDescription = data.title,
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop,
+                placeholder = painterResource(id = android.R.drawable.ic_menu_gallery),
+                error = painterResource(id = android.R.drawable.ic_menu_report_image)
+            )
+
             Box(
                 modifier = Modifier
                     .padding(6.dp)
@@ -100,14 +113,6 @@ fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
                     fontWeight = FontWeight.Bold
                 )
             }
-
-            Text(
-                text = "VIDEO PREVIEW",
-                color = Color.White.copy(alpha = 0.5f),
-                fontSize = 12.sp,
-                fontWeight = FontWeight.Bold,
-                modifier = Modifier.align(Alignment.Center)
-            )
         }
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -121,7 +126,7 @@ fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
             color = AppDarkBlue
         )
 
-     /*   Row(
+        Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(top = 2.dp)
         ) {
@@ -147,7 +152,7 @@ fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
                 fontSize = 10.sp,
                 color = Color.Gray
             )
-        }*/
+        }
     }
 }
 
@@ -155,6 +160,7 @@ fun VideoGridItem(data: VideoItemData, onClick: () -> Unit) {
 @Composable
 fun VideoGridItemPreview() {
     VideoGridItem(
+        videoId = "gyhl3UHFWHE",
         data = VideoItemData("Preview Title", "10:00", "100K", Color.Blue),
         onClick = {}
     )
@@ -164,7 +170,7 @@ fun VideoGridItemPreview() {
 @Composable
 fun VideoGridPreview() {
     VideoGrid(
-        videoIds = listOf("1", "2"),
+        videoIds = listOf("gyhl3UHFWHE", "gd141sa3-mM"),
         videoData = listOf(
             VideoItemData("Title 1", "0:15", "43K", Color.Red),
             VideoItemData("Title 2", "8:15", "25K", Color.Green)

@@ -15,41 +15,41 @@
 11-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:5:5-67
 11-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:13.0.0] /Users/ajay/.gradle/caches/9.4.1/transforms/a7026cc7c92ccbec96459ab41b8d8bd7/transformed/core-13.0.0/AndroidManifest.xml:8:5-79
-12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:13.0.0] /Users/ajay/.gradle/caches/9.4.1/transforms/a7026cc7c92ccbec96459ab41b8d8bd7/transformed/core-13.0.0/AndroidManifest.xml:8:22-76
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:13.0.0] /Users/ajay/.gradle/caches/9.4.1/transforms/7d55ae3519156378c3dc44a8e18f9b43/transformed/core-13.0.0/AndroidManifest.xml:8:5-79
+12-->[com.pierfrancescosoffritti.androidyoutubeplayer:core:13.0.0] /Users/ajay/.gradle/caches/9.4.1/transforms/7d55ae3519156378c3dc44a8e18f9b43/transformed/core-13.0.0/AndroidManifest.xml:8:22-76
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:25:5-68
-13-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:25:22-65
+13-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:25:22-65
 14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-14-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:26:5-110
-14-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:26:22-107
+14-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:26:22-107
 15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-15-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:25:5-79
-15-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:25:22-76
+15-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:25:22-76
 16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-16-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:26:5-88
-16-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:26:22-85
+16-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:26:5-88
+16-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:26:22-85
 17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-17-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:27:5-82
-17-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:27:22-79
+17-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:27:22-79
 18
 19    <permission
-19-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+19-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 20        android:name="com.myworks.youtubeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-20-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+20-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 21        android:protectionLevel="signature" />
-21-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+21-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 22
 23    <uses-permission android:name="com.myworks.youtubeapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-23-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
-23-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+23-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 24
 25    <application
 25-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:7:5-38:19
 26        android:allowBackup="true"
 26-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:8:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/eed97957dbac1abbf78c8b3fb6dee71c/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+27-->[androidx.core:core:1.16.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e82a8d2c3a97dfdfc2a07941dbc935a3/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 28        android:dataExtractionRules="@xml/data_extraction_rules"
 28-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:9:9-65
 29        android:debuggable="true"
@@ -110,195 +110,196 @@
 58-->/Users/ajay/AJAY/Android Studio/YouTubeApp/app/src/main/AndroidManifest.xml:35:13-52
 59        </activity>
 60        <activity
-60-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/8f59a007b71dbc7937ce43ab29b4086e/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+60-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/971e23ecb995a54cee125fd9f046f9e5/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
 61            android:name="androidx.compose.ui.tooling.PreviewActivity"
-61-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/8f59a007b71dbc7937ce43ab29b4086e/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+61-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/971e23ecb995a54cee125fd9f046f9e5/transformed/ui-tooling/AndroidManifest.xml:24:13-71
 62            android:exported="true" />
-62-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/8f59a007b71dbc7937ce43ab29b4086e/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+62-->[androidx.compose.ui:ui-tooling-android:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/971e23ecb995a54cee125fd9f046f9e5/transformed/ui-tooling/AndroidManifest.xml:25:13-36
 63        <activity
-63-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/2102bafca2b90cb36e4ef0fee269658d/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:23:9-26:79
+63-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/01dff0dfc4085cee0f6e43f29f3efaf7/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:23:9-26:79
 64            android:name="androidx.activity.ComponentActivity"
-64-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/2102bafca2b90cb36e4ef0fee269658d/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:24:13-63
+64-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/01dff0dfc4085cee0f6e43f29f3efaf7/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:24:13-63
 65            android:exported="true"
-65-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/2102bafca2b90cb36e4ef0fee269658d/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:25:13-36
+65-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/01dff0dfc4085cee0f6e43f29f3efaf7/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:25:13-36
 66            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
-66-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/2102bafca2b90cb36e4ef0fee269658d/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:26:13-76
+66-->[androidx.compose.ui:ui-test-manifest:1.10.4] /Users/ajay/.gradle/caches/9.4.1/transforms/01dff0dfc4085cee0f6e43f29f3efaf7/transformed/ui-test-manifest-1.10.4/AndroidManifest.xml:26:13-76
 67
 68        <receiver
-68-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:29:9-33:20
+68-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:29:9-33:20
 69            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-69-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:30:13-85
+69-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:30:13-85
 70            android:enabled="true"
-70-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:31:13-35
+70-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:31:13-35
 71            android:exported="false" >
-71-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:32:13-37
+71-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:32:13-37
 72        </receiver>
 73
 74        <service
-74-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:35:9-38:40
+74-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:35:9-38:40
 75            android:name="com.google.android.gms.measurement.AppMeasurementService"
-75-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:36:13-84
+75-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:36:13-84
 76            android:enabled="true"
-76-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:37:13-35
+76-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:37:13-35
 77            android:exported="false" />
-77-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:38:13-37
+77-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:38:13-37
 78        <service
-78-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:39:9-43:72
+78-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:39:9-43:72
 79            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-79-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:40:13-87
+79-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:40:13-87
 80            android:enabled="true"
-80-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:41:13-35
+80-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:41:13-35
 81            android:exported="false"
-81-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:42:13-37
+81-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:42:13-37
 82            android:permission="android.permission.BIND_JOB_SERVICE" />
-82-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/caf0329f122a5501f31b61998361ecdc/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:43:13-69
+82-->[com.google.android.gms:play-services-measurement:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/41903823beb138f30b60232d11c378c6/transformed/play-services-measurement-23.2.0/AndroidManifest.xml:43:13-69
 83        <service
-83-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:30:9-36:19
+83-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:30:9-36:19
 84            android:name="com.google.firebase.components.ComponentDiscoveryService"
-84-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:31:13-84
+84-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:31:13-84
 85            android:directBootAware="true"
-85-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:32:13-43
+85-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:32:13-43
 86            android:exported="false" >
-86-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:32:13-37
+86-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:32:13-37
 87            <meta-data
-87-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:33:13-35:85
+87-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:33:13-35:85
 88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-88-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:34:17-139
+88-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:34:17-139
 89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/83c1600dbf1243c64f4763fc84774a6f/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:35:17-82
+89-->[com.google.android.gms:play-services-measurement-api:23.2.0] /Users/ajay/.gradle/caches/9.4.1/transforms/448026499d52a56f0e373b938ec25beb/transformed/play-services-measurement-api-23.2.0/AndroidManifest.xml:35:17-82
 90            <meta-data
-90-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:15:13-17:85
+90-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:15:13-17:85
 91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-91-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:16:17-130
+91-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:16:17-130
 92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:17:17-82
+92-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:17:17-82
 93            <meta-data
-93-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:18:13-20:85
+93-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:18:13-20:85
 94                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-94-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:19:17-127
+94-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:19:17-127
 95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/05b9266e03c09bbd7aa213ab500fb08a/transformed/firebase-installations-19.1.0/AndroidManifest.xml:20:17-82
+95-->[com.google.firebase:firebase-installations:19.1.0] /Users/ajay/.gradle/caches/9.4.1/transforms/63000b828f6a3c381f98c9c3f5562a54/transformed/firebase-installations-19.1.0/AndroidManifest.xml:20:17-82
 96            <meta-data
-96-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:35:13-37:85
+96-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:35:13-37:85
 97                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-97-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:36:17-109
+97-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:36:17-109
 98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:37:17-82
+98-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:37:17-82
 99        </service>
 100
 101        <provider
-101-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:23:9-28:39
+101-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:23:9-28:39
 102            android:name="com.google.firebase.provider.FirebaseInitProvider"
-102-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:24:13-77
+102-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:24:13-77
 103            android:authorities="com.myworks.youtubeapp.firebaseinitprovider"
-103-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:25:13-72
+103-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:25:13-72
 104            android:directBootAware="true"
-104-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:26:13-43
+104-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:26:13-43
 105            android:exported="false"
-105-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:27:13-37
+105-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:27:13-37
 106            android:initOrder="100" />
-106-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/198ea7b366694b673cc54ab0421f5a9f/transformed/firebase-common-22.0.1/AndroidManifest.xml:28:13-36
+106-->[com.google.firebase:firebase-common:22.0.1] /Users/ajay/.gradle/caches/9.4.1/transforms/f665e90bf10b8f0d76ab236c51d0b2fe/transformed/firebase-common-22.0.1/AndroidManifest.xml:28:13-36
 107
 108        <activity
-108-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/49f8cf4b2142e3d246746b17aa1f40be/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+108-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c58b39258730368d71628763c3d779f1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
 109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-109-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/49f8cf4b2142e3d246746b17aa1f40be/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+109-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c58b39258730368d71628763c3d779f1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
 110            android:exported="false"
-110-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/49f8cf4b2142e3d246746b17aa1f40be/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+110-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c58b39258730368d71628763c3d779f1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
 111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-111-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/49f8cf4b2142e3d246746b17aa1f40be/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+111-->[com.google.android.gms:play-services-base:18.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c58b39258730368d71628763c3d779f1/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
 112
 113        <uses-library
-113-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+113-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
 114            android:name="androidx.window.extensions"
-114-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+114-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
 115            android:required="false" />
-115-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+115-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
 116        <uses-library
-116-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+116-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
 117            android:name="androidx.window.sidecar"
-117-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+117-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
 118            android:required="false" />
-118-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/2caef5efa642de372644f8a0ab84d0d8/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
-119        <uses-library
-119-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/8e3e76187817107e96bd7dda0048fc84/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
-120            android:name="android.ext.adservices"
-120-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/8e3e76187817107e96bd7dda0048fc84/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
-121            android:required="false" />
-121-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/8e3e76187817107e96bd7dda0048fc84/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
-122
-123        <provider
-123-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-124            android:name="androidx.startup.InitializationProvider"
-124-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
-125            android:authorities="com.myworks.youtubeapp.androidx-startup"
-125-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
-126            android:exported="false" >
-126-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+118-->[androidx.window:window:1.5.0] /Users/ajay/.gradle/caches/9.4.1/transforms/c513dbc4e820b76115141c859ef52ae6/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+122            android:authorities="com.myworks.youtubeapp.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/e1612e8f4018f096906cd430e4f411fe/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
 127            <meta-data
-127-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
-128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-128-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+127-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/7d38e688809c8bab8c9928792ac7e856/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/7d38e688809c8bab8c9928792ac7e856/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
 129                android:value="androidx.startup" />
-129-->[androidx.emoji2:emoji2:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/96b44a583c89374fd2b0463dab5a69c7/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+129-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/7d38e688809c8bab8c9928792ac7e856/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
 130            <meta-data
-130-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/fa76057444ef9ae5201a6934fd76d5f6/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
-131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-131-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/fa76057444ef9ae5201a6934fd76d5f6/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
 132                android:value="androidx.startup" />
-132-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/ajay/.gradle/caches/9.4.1/transforms/fa76057444ef9ae5201a6934fd76d5f6/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
-133            <meta-data
-133-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-134                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-134-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-135                android:value="androidx.startup" />
-135-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-136        </provider>
-137
-138        <meta-data
-138-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/85e7b40a73b9bbf005808d955ba64ffe/transformed/play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
-139            android:name="com.google.android.gms.version"
-139-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/85e7b40a73b9bbf005808d955ba64ffe/transformed/play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
-140            android:value="@integer/google_play_services_version" />
-140-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/85e7b40a73b9bbf005808d955ba64ffe/transformed/play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
-141
-142        <receiver
-142-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-143            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-143-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-144            android:directBootAware="false"
-144-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-145            android:enabled="true"
-145-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-146            android:exported="true"
-146-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-147            android:permission="android.permission.DUMP" >
-147-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-149                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-149-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-149-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-150            </intent-filter>
-151            <intent-filter>
-151-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-152                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-152-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-152-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-153            </intent-filter>
-154            <intent-filter>
-154-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-155                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-155-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-155-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-156            </intent-filter>
-157            <intent-filter>
-157-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-158                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-158-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-158-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/6b2963b3607544543afda6af33ead553/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-159            </intent-filter>
-160        </receiver>
-161    </application>
-162
-163</manifest>
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+133        </provider>
+134
+135        <uses-library
+135-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/86e444533ef8b104b600d66dcc9fdeb3/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+136            android:name="android.ext.adservices"
+136-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/86e444533ef8b104b600d66dcc9fdeb3/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+137            android:required="false" />
+137-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/ajay/.gradle/caches/9.4.1/transforms/86e444533ef8b104b600d66dcc9fdeb3/transformed/ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/12fc55dccb684507354fa59e97030257/transformed/play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/12fc55dccb684507354fa59e97030257/transformed/play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.9.0] /Users/ajay/.gradle/caches/9.4.1/transforms/12fc55dccb684507354fa59e97030257/transformed/play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+142
+143        <receiver
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+144            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+145            android:directBootAware="false"
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+146            android:enabled="true"
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+147            android:exported="true"
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+148            android:permission="android.permission.DUMP" >
+148-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+150                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+153                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+156                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+159                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/ajay/.gradle/caches/9.4.1/transforms/fd3059e0a5d93fb9013e26c938597a4d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+160            </intent-filter>
+161        </receiver>
+162    </application>
+163
+164</manifest>
